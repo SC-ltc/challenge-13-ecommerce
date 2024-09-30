@@ -16,7 +16,7 @@ router.get('/:id', (req, res) => {
 });
 
 // create new product
-// This is already done
+// ** Do NOT edit because this was already completed **
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -49,7 +49,7 @@ router.post('/', (req, res) => {
 });
 
 // update product
-// This is already done
+// ** Do NOT edit because this was already completed **
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {

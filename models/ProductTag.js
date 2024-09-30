@@ -42,4 +42,5 @@ ProductTag.init(
 module.exports = ProductTag;
 
 
-//This is a through-table. Used with tables that have a many-to-many relationship.
+//Per tutor - This is a through-table. Used with tables that have a many-to-many relationship.
+// e.g. A many-to-many relationship exists between A and B using table C as junction table
