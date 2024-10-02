@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
-// M13, acts 21-24
 
+// Referenced Module 13, Activities 21-24
 router.get('/', async (req, res) => {
   // find all categories
   // be sure to include its associated Products
@@ -48,7 +48,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// M13, Act 8 or 10
+// Referenced Module 13, Activities 8-10
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
 
@@ -68,7 +68,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// Act 22
+// Referenced Module 13, Activity 22
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
 
@@ -80,7 +80,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!categoryData) {
-      res.status(404).json({ message: 'No category found with this id!' });
+      res.status(404).json({ message: 'No category found with that id' });
       return;
     }
 
