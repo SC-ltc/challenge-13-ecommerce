@@ -7,7 +7,7 @@ The objective of this assignment was to take the starter code and build the back
 
 ## Link to the video demonstration of this project
 
-
+https://app.screencastify.com/v3/watch/A9cFsbFKH6AO7S8BPumj
 
 ## Link to the repository for this project
 
@@ -33,5 +33,7 @@ Course-provided tutor
 [SQL Server Tutorial on Table Relationships](https://www.youtube.com/watch?v=4q-keGvUnag)
 
 [MDN on HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+[DEV article on how to use Insomnia to test API endpoints](https://dev.to/kmcknight91/how-to-use-insomnia-to-test-api-endpoints-1lad)
 
 
